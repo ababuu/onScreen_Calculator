@@ -32,7 +32,6 @@ main{
 
 .container{
     min-height: 85vh;
-    
     width: 30%;
     background: rgb(71, 71, 71);
     border-radius: 10px;
@@ -97,5 +96,48 @@ main{
 }
 .zero{
     grid-column: span 2;
+}
+
+@media(max-width: 997px){
+    .container{
+        width: 35%;
+    }
+    
+}
+@media(max-width: 858px){
+    .container{
+        width: 40%;
+    }
+    
+}
+@media(max-width: 680px){
+    .container{
+        width: 45%;
+    }
+    
+}
+@media(max-width: 550px){
+    .container{
+        width: 50%;
+    }
+    
+}
+@media(max-width: 450px){
+    .container{
+        width: 55%;
+    }
+    
+}
+@media(max-width: 395px){
+    .container{
+        width: 80%;
+    }
+    
+}
+@media(max-width: 300px){
+    .container{
+        width: 100%;
+    }
+    
 }
 
